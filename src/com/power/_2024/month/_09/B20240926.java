@@ -1,15 +1,8 @@
 package com.power._2024.month._09;
 
+import com.power._2024.month.domain.ListNode;
+
 public class B20240926 {
-
-    public class ListNode {
-        int val;
-        ListNode next = null;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
 
 
     /**

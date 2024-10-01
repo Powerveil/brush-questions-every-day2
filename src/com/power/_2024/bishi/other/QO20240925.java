@@ -8,6 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class QO20240925 {
     public static void main(String[] args) {
+        short s = 1;
 
 //        System.out.println(Arrays.toString(test01(16, new int[]{10, 15, 30, 1, 19})));
 //        System.out.println(Arrays.toString(test011(16, new int[]{10, 15, 30, 1, 19})));
