@@ -77,13 +77,10 @@ public class B20240926 {
         if (m > 1) {
             firstTail.next = secondHead;
             secondTail.next = thirdHead;
+            return head;
         } else {
-            if (cur != null) {
-                secondTail.next = thirdHead;
-            }
+            secondTail.next = thirdHead;
             return pre;
         }
-
-        return head;
     }
 }
